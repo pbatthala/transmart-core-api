@@ -51,6 +51,10 @@ public interface Projection<CELL> {
      * @param object an implementation-defined object
      * @return the final cell value
      */
+	
+	public static final TCR_AMINOACID_PROJECTION = 'aa_sequence'
+	public static final TCR_NUCLEOTIDE_PROJECTION = 'nt_sequence'
+	
     CELL doWithResult(Object object)
 
 }
